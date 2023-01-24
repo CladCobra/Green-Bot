@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Green-Bot | Autonomous Litter Collection Bot</title>
+	</head>
+
+	<body>
+		<section class="home-section">
+			<nav class="nav-bar">
+				<a class="nav-logo" href="javascript:navBarHomeClick()"
+					><img src="images/logo.png" alt=""
+				/></a>
+				<a
+					class="nav-bar-button"
+					onclick="navBarButtonClick('Home')"
+					id="Home"
+					href="javascript:navBarHomeClick()"
+					>Home</a
+				>
+				<a
+					class="nav-bar-button"
+					onclick="navBarButtonClick('Description')"
+					id="Description"
+					href="javascript:navBarDescriptionClick()"
+					>Description</a
+				>
+				<a
+					class="nav-bar-button"
+					onclick="navBarButtonClick('Visuals')"
+					id="Visuals"
+					href="javascript:navBarVisualsClick()"
+					>Visuals</a
+				>
+				<a
+					class="nav-bar-button"
+					onclick="navBarButtonClick('Pros & Cons')"
+					id="Pros & Cons"
+					href="javascript:navBarProsAndConsClick()"
+					>Pros & Cons</a
+				>
+				<a
+					class="nav-bar-button"
+					onclick="navBarButtonClick('Breakthroughs')"
+					id="Breakthroughs"
+					href="javascript:navBarBreakthroughsClick()"
+					>Breakthroughs</a
+				>
+			</nav>
+			<div class="hero-text">
+				<span class="hero-header">Green-Bot<br /></span>
+				<span class="hero-subheader"
+					>The Autonomous Litter<br />Collection Robot</span
+				>
+			</div>
+		</section>
+		<section class="description-section">
+			<div class="description-text">
+				<h1 class="description-header">Description</h1>
+				<h2 class="description-question-header">What Does this Product Do?</h2>
+				<p class="description-question-answer">
+					The Green-Bot is designed to make litter cleanup much easier. This is
+					a major problem in many big cities, and even most small cities.
+				</p>
+				<h2 class="description-question-header">
+					How is this Robot Different From Any Other Litter-Collecting Method?
+				</h2>
+				<p class="description-question-answer">
+					We are aware that there are many other litter collecting solutions out
+					there, but the Green-Bot has many benefits. For example, the Green-Bot
+					is made out of recyclable/reusable materials, making it easier for
+					cities to get their hands on one. Another benefit of the robot is that
+					the robot will operate for around 16 hours a day and charge with solar
+					panels for the other 8 hours.
+				</p>
+				<h2 class="description-question-header">
+					How Does the Robot Collect Litter?
+				</h2>
+				<p class="description-question-answer">
+					The Green-Bot will determine if the item picked up is trash or recycle
+					using sensors & machine learning. Depending on the item, the robot
+					will store it in either the trash or recycle compartment. When the
+					compartments reach their capacity, the robot will head back to its
+					“hub” and empty the compartments and restart this process.
+				</p>
+				<h2 class="description-question-header">How Does Charging Work?</h2>
+				<p class="description-question-answer">
+					The Green-Bot, as said before, will run for around 16 hours a day, and
+					charge for 8. The robot will use solar panels to charge, so it is
+					environmentally friendly.
+				</p>
+			</div>
+		</section>
+		<section class="visuals-section">
+			<div class="visuals-text">
+				<h1 class="visuals-header">Visuals</h1>
+			</div>
+			<div class="visuals">
+				<h2 class="diagram-header">Green-Bot:</h2>
+				<img
+					src="images/green-bot-diagram.png"
+					alt=""
+					class="green-bot-diagram"
+				/>
+				<h2 class="diagram-header">Green-Bot Charger:</h2>
+				<img
+					src="images/green-bot-charger-diagram.png"
+					alt=""
+					class="green-bot-charger-diagram"
+				/>
+			</div>
+		</section>
+		<section class="pros-and-cons-section">
+			<div class="pros-text">
+				<h1 class="pros-header">Pros</h1>
+				<ul class="pros-list">
+					<li class="pros-item">- Doesn't Disrupt Walkers</li>
+					<li class="pros-item">- Made From Recylable Materials</li>
+					<li class="pros-item">
+						- Organizes Litter Based On Type (Trash, Recycle)
+					</li>
+					<li class="pros-item">- Opens Up New Job Opportunities</li>
+					<li class="pros-item">- Keeps Cities Much Cleaner</li>
+					<li class="pros-item">- Cheaper</li>
+				</ul>
+			</div>
+			<div class="cons-text">
+				<h1 class="cons-header">Cons</h1>
+				<ul class="cons-list">
+					<li class="cons-item">
+						- Solar Panel Charging is Less Reliable than Other Charging Methods
+					</li>
+					<li class="cons-item">
+						- Sensor Detection Will Take Many Tries to Perfect As it Uses
+						Machine Learning
+					</li>
+					<li class="cons-item"></li>
+					<li class="cons-item"></li>
+					<li class="cons-item"></li>
+				</ul>
+			</div>
+		</section>
+		<section class="breakthroughs-section">
+			<div class="breakthroughs-text">
+				<h1 class="breakthroughs-header">Breakthroughs</h1>
+				<p class="breakthroughs">
+					A very important breakthrough that is needed for the Green-Bot is the
+					improvement of machine learning. This is important for the Green-Bot
+					as it needs machine learning to be able to detect whether an item is
+					recycle or trash. Currently, teaching our robot to detech the
+					differences between objects will take a while, and it will be a
+					repetitive task, so to mass produce this robot, we will need machine
+					learning to become easier to use.
+				</p>
+			</div>
+		</section>
+		<script src="js/script.js"></script>
+	</body>
+</html>
